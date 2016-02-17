@@ -1,0 +1,132 @@
+﻿2015-07-25 22:48:53,632 [5172] ERROR DefaultBootstrap - Failed to create server instance GameService!
+System.IO.FileNotFoundException: 未能加载文件或程序集“Junfine.Dota”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“Junfine.Dota”
+   在 System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   在 System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   在 System.Type.GetType(String typeName, Boolean throwOnError)
+   在 SuperSocket.SocketEngine.DefaultBootstrap.CreateWorkItemInstance(String serviceTypeName, StatusInfoAttribute[] serverStatusMetadata) 位置 c:\Users\Administrator\Desktop\SuperSocket(1.6.3).Source\SocketEngine\DefaultBootstrap.cs:行号 219
+   在 SuperSocket.SocketEngine.DefaultBootstrap.InitializeAndSetupWorkItem(WorkItemFactoryInfo factoryInfo) 位置 c:\Users\Administrator\Desktop\SuperSocket(1.6.3).Source\SocketEngine\DefaultBootstrap.cs:行号 315
+
+=== 预绑定状态信息 ===
+日志: DisplayName = Junfine.Dota
+ (Partial)
+警告: 为程序集提供了部分绑定信息:
+警告: 程序集名称: Junfine.Dota | 域 ID: 1
+警告: 当仅提供程序集显示名称的一部分时，将发生部分绑定。
+警告: 这可能导致联编程序加载错误的程序集。
+警告: 建议为程序集提供完全指定的文字标识，
+警告: 并由简单名称、版本、区域性和公钥标记组成。
+警告: 有关此问题的详细信息和常见解决方案，请参见白皮书 http://go.microsoft.com/fwlink/?LinkId=109270。
+日志: Appbase = file:///E:/workspace/SimpleFramework_NGUI/Server/Server/bin/Debug/
+日志: 初始 PrivatePath = NULL
+调用程序集: SuperSocket.SocketEngine, Version=1.6.3.0, Culture=neutral, PublicKeyToken=6c80000676988ebb。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: E:\workspace\SimpleFramework_NGUI\Server\Server\bin\Debug\SuperSocket.SocketService.exe.Config
+日志: 使用主机配置文件: 
+日志: 使用 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 此时没有为引用应用策略(私有、自定义、分部或基于位置的程序集绑定)。
+日志: 尝试下载新的 URL file:///E:/workspace/SimpleFramework_NGUI/Server/Server/bin/Debug/Junfine.Dota.DLL。
+日志: 尝试下载新的 URL file:///E:/workspace/SimpleFramework_NGUI/Server/Server/bin/Debug/Junfine.Dota/Junfine.Dota.DLL。
+日志: 尝试下载新的 URL file:///E:/workspace/SimpleFramework_NGUI/Server/Server/bin/Debug/Junfine.Dota.EXE。
+日志: 尝试下载新的 URL file:///E:/workspace/SimpleFramework_NGUI/Server/Server/bin/Debug/Junfine.Dota/Junfine.Dota.EXE。
+
+2015-07-25 22:59:06,035 [3976] ERROR DefaultBootstrap - The process crashed for an unhandled exception!
+System.IO.IOException: 无法将数据写入传输连接: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BufferedStream.FlushWrite()
+   在 SimpleFramework.Service.HttpProcessor.process() 位置 e:\workspace\SimpleFramework_NGUI\Server\Server\Service\HttpProcessor.cs:行号 65
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2015-07-25 22:59:16,445 [3976] ERROR DefaultBootstrap - The process crashed for an unhandled exception!
+System.IO.IOException: 无法将数据写入传输连接: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BufferedStream.FlushWrite()
+   在 SimpleFramework.Service.HttpProcessor.process() 位置 e:\workspace\SimpleFramework_NGUI\Server\Server\Service\HttpProcessor.cs:行号 65
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2015-07-25 23:38:08,074 [3232] ERROR DefaultBootstrap - The process crashed for an unhandled exception!
+System.IO.IOException: 无法将数据写入传输连接: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BufferedStream.FlushWrite()
+   在 SimpleFramework.Service.HttpProcessor.process() 位置 e:\workspace\SimpleFramework_NGUI\Server\Server\Service\HttpProcessor.cs:行号 65
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2015-07-25 23:38:14,160 [3232] ERROR DefaultBootstrap - The process crashed for an unhandled exception!
+System.IO.IOException: 无法将数据写入传输连接: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BufferedStream.FlushWrite()
+   在 SimpleFramework.Service.HttpProcessor.process() 位置 e:\workspace\SimpleFramework_NGUI\Server\Server\Service\HttpProcessor.cs:行号 65
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2015-07-25 23:38:14,165 [684] ERROR DefaultBootstrap - The process crashed for an unhandled exception!
+System.IO.IOException: 无法将数据写入传输连接: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BufferedStream.FlushWrite()
+   在 SimpleFramework.Service.HttpProcessor.process() 位置 e:\workspace\SimpleFramework_NGUI\Server\Server\Service\HttpProcessor.cs:行号 65
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2015-07-25 23:38:21,577 [3232] ERROR DefaultBootstrap - The process crashed for an unhandled exception!
+System.IO.IOException: 无法将数据写入传输连接: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BufferedStream.FlushWrite()
+   在 SimpleFramework.Service.HttpProcessor.process() 位置 e:\workspace\SimpleFramework_NGUI\Server\Server\Service\HttpProcessor.cs:行号 65
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2015-07-25 23:38:21,577 [684] ERROR DefaultBootstrap - The process crashed for an unhandled exception!
+System.IO.IOException: 无法将数据写入传输连接: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BufferedStream.FlushWrite()
+   在 SimpleFramework.Service.HttpProcessor.process() 位置 e:\workspace\SimpleFramework_NGUI\Server\Server\Service\HttpProcessor.cs:行号 65
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2015-07-25 23:38:26,056 [4992] ERROR DefaultBootstrap - The process crashed for an unhandled exception!
+System.IO.IOException: 无法将数据写入传输连接: 您的主机中的软件中止了一个已建立的连接。。 ---> System.Net.Sockets.SocketException: 您的主机中的软件中止了一个已建立的连接。
+   在 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BufferedStream.FlushWrite()
+   在 SimpleFramework.Service.HttpProcessor.process() 位置 e:\workspace\SimpleFramework_NGUI\Server\Server\Service\HttpProcessor.cs:行号 65
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2015-07-25 23:38:43,830 [5224] ERROR DefaultBootstrap - The process crashed for an unhandled exception!
+System.IO.IOException: 无法将数据写入传输连接: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.BufferedStream.FlushWrite()
+   在 SimpleFramework.Service.HttpProcessor.process() 位置 e:\workspace\SimpleFramework_NGUI\Server\Server\Service\HttpProcessor.cs:行号 65
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()

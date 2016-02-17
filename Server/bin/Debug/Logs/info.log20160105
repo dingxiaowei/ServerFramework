@@ -1,0 +1,5 @@
+﻿2016-01-05 23:14:47,107 [5096] INFO  GameService - The server instance GameService has been started!
+2016-01-05 23:21:34,935 [1220] INFO  GameService - Session: 712b19bb-ecdd-48d8-92ee-92833757c01f/127.0.0.1:20001
+A new session connected!
+2016-01-05 23:21:54,125 [3684] INFO  GameService - Session: 712b19bb-ecdd-48d8-92ee-92833757c01f/127.0.0.1:20001
+This session was closed for ClientClosing!

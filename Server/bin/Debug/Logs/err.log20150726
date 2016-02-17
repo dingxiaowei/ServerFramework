@@ -1,0 +1,64 @@
+﻿2015-07-26 09:55:48,576 [4424] ERROR DefaultBootstrap - The process crashed for an unhandled exception!
+System.ArgumentOutOfRangeException: 长度不能小于 0。
+参数名: length
+   在 System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   在 SimpleFramework.Service.HttpServer.OnGetRequest(HttpListenerRequest request, HttpListenerResponse response) 位置 e:\workspace\SimpleFramework_NGUI\Server\Server\Service\HttpServer.cs:行号 59
+   在 SimpleFramework.Service.HttpService.Listen() 位置 e:\workspace\SimpleFramework_NGUI\Server\Server\Service\HttpService.cs:行号 48
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2015-07-26 10:10:01,858 [2536] ERROR DefaultBootstrap - The process crashed for an unhandled exception!
+System.InvalidOperationException: 在写入所有字节之前不能关闭流。
+   在 System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   在 System.Net.HttpListenerResponse.Close()
+   在 SimpleFramework.Service.HttpServer.OnGetRequest(HttpListenerRequest request, HttpListenerResponse response) 位置 e:\workspace\SimpleFramework_NGUI\Server\Server\Service\HttpServer.cs:行号 92
+   在 SimpleFramework.Service.HttpService.Listen() 位置 e:\workspace\SimpleFramework_NGUI\Server\Server\Service\HttpService.cs:行号 48
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2015-07-26 10:11:03,330 [3484] ERROR DefaultBootstrap - The process crashed for an unhandled exception!
+System.InvalidOperationException: 在写入所有字节之前不能关闭流。
+   在 System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   在 System.Net.HttpListenerResponse.Close()
+   在 SimpleFramework.Service.HttpServer.OnGetRequest(HttpListenerRequest request, HttpListenerResponse response) 位置 e:\workspace\SimpleFramework_NGUI\Server\Server\Service\HttpServer.cs:行号 94
+   在 SimpleFramework.Service.HttpService.Listen() 位置 e:\workspace\SimpleFramework_NGUI\Server\Server\Service\HttpService.cs:行号 48
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2015-07-26 10:11:54,909 [4588] ERROR DefaultBootstrap - The process crashed for an unhandled exception!
+System.InvalidOperationException: 在写入所有字节之前不能关闭流。
+   在 System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   在 System.Net.HttpListenerResponse.Close()
+   在 SimpleFramework.Service.HttpServer.OnGetRequest(HttpListenerRequest request, HttpListenerResponse response) 位置 e:\workspace\SimpleFramework_NGUI\Server\Server\Service\HttpServer.cs:行号 94
+   在 SimpleFramework.Service.HttpService.Listen() 位置 e:\workspace\SimpleFramework_NGUI\Server\Server\Service\HttpService.cs:行号 48
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2015-07-26 10:28:16,720 [5432] ERROR DefaultBootstrap - The process crashed for an unhandled exception!
+System.ArgumentNullException: 值不能为 null。
+参数名: value
+   在 System.String.Join(String separator, String[] value)
+   在 SimpleFramework.Service.HttpService.Listen() 位置 e:\workspace\SimpleFramework_NGUI\Server\Server\Service\HttpService.cs:行号 38
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2015-07-26 10:29:18,617 [5456] ERROR DefaultBootstrap - The process crashed for an unhandled exception!
+System.ArgumentNullException: 值不能为 null。
+参数名: value
+   在 System.String.Join(String separator, String[] value)
+   在 SimpleFramework.Service.HttpService.Listen() 位置 e:\workspace\SimpleFramework_NGUI\Server\Server\Service\HttpService.cs:行号 37
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()

@@ -1,0 +1,12 @@
+﻿2016-01-31 12:44:41,061 [2080] DEBUG DefaultBootstrap - The server instance GameService has been created!
+2016-01-31 12:44:41,373 [2080] DEBUG DefaultBootstrap - The server instance GameService has been initialized!
+2016-01-31 12:44:44,649 [2080] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2016-01-31 12:44:44,649 [2080] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2016-01-31 12:44:45,258 [2080] DEBUG GameService - Listener (0.0.0.0:2012) was started
+2016-01-31 12:44:45,382 [2080] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2016-01-31 13:43:10,731 [4408] DEBUG DefaultBootstrap - The server instance GameService has been created!
+2016-01-31 13:43:11,044 [4408] DEBUG DefaultBootstrap - The server instance GameService has been initialized!
+2016-01-31 13:43:12,473 [4408] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2016-01-31 13:43:12,474 [4408] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2016-01-31 13:43:12,555 [4408] DEBUG GameService - Listener (0.0.0.0:2012) was started
+2016-01-31 13:43:12,612 [4408] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!

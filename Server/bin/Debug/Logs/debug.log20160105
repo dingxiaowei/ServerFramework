@@ -1,0 +1,6 @@
+﻿2016-01-05 23:14:41,247 [5096] DEBUG DefaultBootstrap - The server instance GameService has been created!
+2016-01-05 23:14:41,957 [5096] DEBUG DefaultBootstrap - The server instance GameService has been initialized!
+2016-01-05 23:14:46,347 [5096] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2016-01-05 23:14:46,347 [5096] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2016-01-05 23:14:46,917 [5096] DEBUG GameService - Listener (0.0.0.0:2012) was started
+2016-01-05 23:14:47,187 [5096] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!

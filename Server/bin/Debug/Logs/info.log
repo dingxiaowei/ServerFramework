@@ -1,0 +1,6 @@
+﻿2016-01-31 12:44:45,320 [2080] INFO  GameService - The server instance GameService has been started!
+2016-01-31 13:43:12,583 [4408] INFO  GameService - The server instance GameService has been started!
+2016-01-31 13:43:24,838 [5944] INFO  GameService - Session: 2dbe8b95-50a4-4998-8370-510f4be57fc7/127.0.0.1:18064
+A new session connected!
+2016-01-31 13:43:35,953 [3236] INFO  GameService - Session: 2dbe8b95-50a4-4998-8370-510f4be57fc7/127.0.0.1:18064
+This session was closed for ClientClosing!
